@@ -3,7 +3,7 @@
 学号：1601214481<br>
 日期：2017/03/22<br><br>
 
-[图书交易平台](https://github.com/liberion1994/oo/blob/master/%E4%BD%9C%E4%B8%9A2-%E5%9B%BE%E4%B9%A6%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%8A%9F%E8%83%BD%E9%9C%80%E6%B1%82.md)(editor:李博远)<br>
+[图书交易平台功能需求](https://github.com/liberion1994/oo/blob/master/%E4%BD%9C%E4%B8%9A2-%E5%9B%BE%E4%B9%A6%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%8A%9F%E8%83%BD%E9%9C%80%E6%B1%82.md)(editor:李博远)<br>
 ## 涉众概要
 
 <table>
