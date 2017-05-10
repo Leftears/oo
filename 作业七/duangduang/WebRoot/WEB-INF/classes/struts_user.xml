@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="index" extends="struts-default" namespace="/">
+        <action name="index_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+        <result name="index_success">/WEB-INF/user/mainframe.jsp</result>
+        </action>
+        
+        <action name="beginlogin_*"  class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+        <result name="beginlogin_success">/WEB-INF/user/login.jsp</result>
+        </action>
+        
+        <action name="beginregister_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+        <result name="beginregister_success">/WEB-INF/user/register.jsp</result>
+        </action>
+        <action name="register_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+         <result name="register">/WEB-INF/user/register.jsp</result>
+         </action>
+         
+         <action name="login_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+         <result name="login_success">/WEB-INF/user/mainframe1.jsp</result>
+         <result name="login_error">/WEB-INF/user/loginerror.jsp</result>
+         </action>
+         
+         <action name="register1_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+         <result name="register_success">/WEB-INF/user/mainframe1.jsp</result>
+         </action>
+         
+         <action name="shoppingcar_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+         <result name="myshoppingcar">WEB-INF/user/shoppingcar.jsp</result>
+         </action>
+         
+          
+         <action name="selfcenter_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+         <result name="selfcenter">WEB-INF/user/selfcenter.jsp</result>
+         </action>
+         
+              
+         <action name="pwdchange_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+         <result name="pwdchange">WEB-INF/user/pwdchange.jsp</result>
+         </action>
+         
+              
+         <action name="pwdchangesuccess_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+         <result name="pwdchange_success">WEB-INF/user/selfcenter.jsp</result>
+         
+         </action>
+             
+         <action name="selfchange_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+         <result name="selfchange">WEB-INF/user/selfchange.jsp</result>
+         </action>
+         
+          <action name="selfchangesuccess_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="selfchange_success">WEB-INF/user/selfcenter.jsp</result>
+         </action>
+         
+         <action name="dealcenter_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="dealcenter">/WEB-INF/user/dealcenter.jsp</result>
+         </action>
+         
+          <action name="productpage_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="productpage">/WEB-INF/user/productpage.jsp</result>
+         </action>
+         
+          <action name="dcatalog_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="dcatalog">/WEB-INF/user/dcatalog.jsp</result>
+         </action>
+         
+         <action name="xcatalog_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="xcatalog">/WEB-INF/user/xcatalog.jsp</result>
+         </action>
+         
+         <action name="wcatalog_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="wcatalog">/WEB-INF/user/wcatalog.jsp</result>
+         </action>
+         
+         <action name="tcatalog_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="tcatalog">/WEB-INF/user/tcatalog.jsp</result>
+         </action>
+         
+         <action name="scatalog_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="scatalog">/WEB-INF/user/scatalog.jsp</result>
+         </action>
+         
+         <action name="kcatalog_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="kcatalog">/WEB-INF/user/kcatalog.jsp</result>
+         </action>
+         
+         <action name="qcatalog_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="qcatalog">/WEB-INF/user/qcatalog.jsp</result>
+         </action>
+         
+        <action name="shoppingcar1_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="shoppingcar1">/WEB-INF/user/shoppingcar.jsp</result>
+         </action>
+         
+         <action name="dealcenter1_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="dealcenter1">/WEB-INF/user/dealcenter.jsp</result>
+         </action>
+         
+         <action name="myorder_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="myorder">/WEB-INF/user/dealcenter.jsp</result>
+         </action>
+         
+         <action name="search_*" class="com.icss.duangduang.web.struts.user.IndexAction" method="{1}">
+           <result name="search">/WEB-INF/user/search.jsp</result>
+         </action>
+        </package>
+</struts> 

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+    <filter>
+    <filter-name>duangduang</filter-name>
+    <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>duangduang</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <display-name>duangduangBookSell</display-name>
+  <servlet>
+    <servlet-name>manageLogin</servlet-name>
+   
+    <servlet-class>com.icss.servlet.manageLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>demo</servlet-name>
+    
+    <servlet-class>com.icss.servlet.demo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>bookAdmin</servlet-name>
+  
+    <servlet-class>com.icss.servlet.bookAdmin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>bookupload</servlet-name>
+   
+    <servlet-class>com.icss.servlet.bookupload</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>bookdel</servlet-name>
+   
+    <servlet-class>com.icss.servlet.bookdel</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>numSearch</servlet-name>
+   
+    <servlet-class>com.icss.servlet.numSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>typeSearch</servlet-name>
+   
+    <servlet-class>com.icss.servlet.typeSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>order_select</servlet-name>
+   
+    <servlet-class>com.icss.servlet.order_select</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>order_select2</servlet-name>
+   
+    <servlet-class>com.icss.servlet.order_select2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>order_del</servlet-name>
+    
+    <servlet-class>com.icss.servlet.order_del</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>stock_add</servlet-name>
+    
+    <servlet-class>com.icss.servlet.stock_add</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>stock_search</servlet-name>
+  
+    <servlet-class>com.icss.servlet.stock_search</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>passwordChange</servlet-name>
+   
+    <servlet-class>com.icss.servlet.passwordChange</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>bookchange</servlet-name>
+   
+    <servlet-class>com.icss.servlet.bookchange</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Upload</servlet-name>
+    
+    <servlet-class>com.icss.servlet.Upload</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Delbook</servlet-name>
+    
+    <servlet-class>com.icss.servlet.Delbook</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookNumsearch</servlet-name>
+    
+    <servlet-class>com.icss.servlet.BookNumsearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookTypesearch</servlet-name>
+    
+    <servlet-class>com.icss.servlet.BookTypesearch</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderSearchAll</servlet-name>
+  
+    <servlet-class>com.icss.servlet.OrderSearchAll</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderDel</servlet-name>
+   
+    <servlet-class>com.icss.servlet.OrderDel</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Stock_addData</servlet-name>
+   
+    <servlet-class>com.icss.servlet.Stock_addData</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Stock_searchData</servlet-name>
+    
+    <servlet-class>com.icss.servlet.Stock_searchData</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PasswordChangeData</servlet-name>
+    
+    <servlet-class>com.icss.servlet.PasswordChangeData</servlet-class>
+  </servlet>
+
+
+<servlet>
+    <servlet-name>bookmanager</servlet-name>
+    <servlet-class>com.duang.servlet.Bookmanager</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bookmanager</servlet-name>
+    <url-pattern>/bookmanager</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>usermanager</servlet-name>
+    <servlet-class>com.duang.servlet.Usermanager</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>usermanager</servlet-name>
+    <url-pattern>/usermanager</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>usermanagerAdd</servlet-name>
+    <servlet-class>com.duang.servlet.UsermanagerAdd</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>usermanagerAdd</servlet-name>
+    <url-pattern>/usermanagerAdd</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>bookmanagerAdd</servlet-name>
+    <servlet-class>com.duang.servlet.BookmanagerAdd</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bookmanagerAdd</servlet-name>
+    <url-pattern>/bookmanagerAdd</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>usernameSearch</servlet-name>
+    <servlet-class>com.duang.servlet.UsernameSearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>usernameSearch</servlet-name>
+    <url-pattern>/usernameSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>manageLogin</servlet-name>
+    <url-pattern>/manageLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>demo</servlet-name>
+    <url-pattern>/demo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>bookAdmin</servlet-name>
+    <url-pattern>/bookAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>bookupload</servlet-name>
+    <url-pattern>/bookupload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>bookdel</servlet-name>
+    <url-pattern>/bookdel</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>numSearch</servlet-name>
+    <url-pattern>/numSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>typeSearch</servlet-name>
+    <url-pattern>/typeSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>order_select</servlet-name>
+    <url-pattern>/order_select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>order_select2</servlet-name>
+    <url-pattern>/order_select2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>order_del</servlet-name>
+    <url-pattern>/order_del</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stock_add</servlet-name>
+    <url-pattern>/stock_add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stock_search</servlet-name>
+    <url-pattern>/stock_search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>passwordChange</servlet-name>
+    <url-pattern>/passwordChange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>bookchange</servlet-name>
+    <url-pattern>/bookchange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload</servlet-name>
+    <url-pattern>/Upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delbook</servlet-name>
+    <url-pattern>/Delbook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookNumsearch</servlet-name>
+    <url-pattern>/BookNumsearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookTypesearch</servlet-name>
+    <url-pattern>/BookTypesearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderSearchAll</servlet-name>
+    <url-pattern>/OrderSearchAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderDel</servlet-name>
+    <url-pattern>/OrderDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Stock_addData</servlet-name>
+    <url-pattern>/Stock_addData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Stock_searchData</servlet-name>
+    <url-pattern>/Stock_searchData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PasswordChangeData</servlet-name>
+    <url-pattern>/PasswordChangeData</url-pattern>
+  </servlet-mapping>
+  
+  
+	<welcome-file-list>
+		<welcome-file>/demo</welcome-file>
+	</welcome-file-list>
+</web-app>
