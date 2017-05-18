@@ -14,8 +14,8 @@
 ## 一、模型类图<br>
 模型类图<br>
 ![模型类图](httpi.imgur.com/vT2SHYU.png)
-br
-## 二、用況场景活动图br
+<br>
+## 二、用況场景活动图<br>
 1. 购买图书活动图<br>
 ![购买图书活动图](http://i.imgur.com/8Yj2wuO.png)<br>
 2. 创建帐户活动图<br>
