@@ -11,6 +11,7 @@ Object Oriented Analysis & Design
 [作业6: 系统设计](https://github.com/Leftears/oo/blob/master/hw6/hw6.md) <br>
 [作业7: 第一次系统总结与验收](https://github.com/Leftears/oo/tree/master/hw7) <br>
 [作业8: 需求变更](https://github.com/Leftears/oo/blob/master/hw8/hw8.md) <br>
+[作业9:需求变更报告书](https://github.com/Leftears/oo/blob/master/hw9/hw9.md)<br>
 
 小組成員：<br>
 昝妍 <br>
